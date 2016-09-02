@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after{
+  -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+MAIN PAGE
+*/
+
+.logoframe {
+  width: 960px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.inside-grid{
+  width:600px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url("logo.png");
+  background-position: 150px 200px;
+  background-repeat: no-repeat;
+}
+
+/*
+SEARCHBAR
+*/
+
+.searchbar{
+  position: absolute;
+  top:320px;
+  width: 600px;
+  border-spacing: 5px;
+  border: 1px solid #CCCCCC;
+  height:40px;
+  font-size: 16px;
+  padding: 5px 5px 5px 5px;
+}
+
+.searchbar:focus{
+  border:.5px solid #33ccff;
+}
+
+/*
+BUTTONS
+*/
+.btn-main{
+  border: none;
+  color: #696969;
+  font-weight: 600;
+  font-size: 13px;
+  font-style: bold;
+  background: #E8E8E8;  
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.btn-main:hover{
+  color: black;
+  background: white; 
+  border: 1px solid #696969;
+}
+
+.middle-btn-pos{
+  position:relative;
+  top: 392px;
+  left: 143px;
+}
+
+/*
+BOTTOM ROW
+*/
+
+.bottom{ 
+  position: fixed;
+  border-top: 1px solid #D8D8D8;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+  background: #E8E8E8 ;
+}
+
+.left{
+float: left;
+}
+
+
+.right{
+float: right;
+}
+
+.left,
+.right{
+display:inline;
+margin: 10px 20px 20px 20px;
+}
+
+
+.right a,
+.left a{
+text-decoration: none;
+color:#606060;
+font-size: 14px;
+font-weight: 100;
+margin-left: 12px;
+margin-right: 12px;
+font:arial;
+}
+
+.right a:hover,
+.left a:hover{
+text-decoration: underline;
+}
+
+/*
+UPPER RIGHT HAND
+*/
+.top{
+  position: fixed;
+  left:0px;
+  top:0px;
+  height:40px;
+  width:100%;
+}
+
+.container{
+  display: inline-block;
+  vertical-align: center;
+}
+
+
+#btn-signin{
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  font-style: bold;
+  background: #0266C8;  
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+/*
+Optional: mousover text. Use blah:hover{} to make stuff happen when you hover
+*/
+
+
+/*
+Optional: drop down menus
+*/
+contextmenu
